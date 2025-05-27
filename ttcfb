@@ -12,6 +12,7 @@ from pystyle import Write, Colors
 from bs4 import BeautifulSoup
 from datetime import datetime
 from time import sleep
+from colorama import Fore, Style, init
 from random_user_agent.user_agent import UserAgent
 from random_user_agent.params import SoftwareName, OperatingSystem
 def bes4(url):
@@ -66,18 +67,20 @@ end = '\033[0m'
 def banner():
     os.system("cls" if os.name == "nt" else "clear")
     banner = f"""
-    \033[1;39m████████╗██╗  ██╗ ████████╗ █████╗  █████╗ ██╗
-    \033[1;39m╚══██╔══╝██║  ██║ ╚══██╔══╝██╔══██╗██╔══██╗██║
-       \033[1;39m██║   ███████║    ██║   ██║  ██║██║  ██║██║
-       \033[1;39m██║   ██╔══██║    ██║   ██║  ██║██║  ██║██║
-       \033[1;39m██║   ██║  ██║    ██║   ╚█████╔╝╚█████╔╝███████╗
-       \033[1;39m╚═╝   ╚═╝  ╚═╝    ╚═╝    ╚════╝  ╚════╝ ╚══════╝ 
-       
-         \033[1;36mAdmin: Thiệu Hoàng | YouTube: @thieuhoang75 
-            \033[1;39mBox Zalo: https://zalo.me/g/ahnoav496
-                \033[1;33mNgày: {datetime.now().strftime('%d/%m/%Y %H:%M:%S')}
-\033[1;39m--------------------------------------------------------
-""" 
+{Fore.YELLOW}╔══════════════════════════════════════════════════════╗
+{Fore.YELLOW}║                                                      {Fore.YELLOW}║
+{Fore.YELLOW}║  {Fore.WHITE}████████╗██╗  ██╗ ████████╗ █████╗  █████╗ ██╗      {Fore.YELLOW}║
+{Fore.YELLOW}║  {Fore.WHITE}╚══██╔══╝██║  ██║ ╚══██╔══╝██╔══██╗██╔══██╗██║      {Fore.YELLOW}║
+{Fore.YELLOW}║     {Fore.WHITE}██║   ███████║    ██║   ██║  ██║██║  ██║██║      {Fore.YELLOW}║
+{Fore.YELLOW}║     {Fore.WHITE}██║   ██╔══██║    ██║   ██║  ██║██║  ██║██║      {Fore.YELLOW}║
+{Fore.YELLOW}║     {Fore.WHITE}██║   ██║  ██║    ██║   ╚█████╔╝╚█████╔╝███████╗ {Fore.YELLOW}║
+{Fore.YELLOW}║     {Fore.WHITE}╚═╝   ╚═╝  ╚═╝    ╚═╝    ╚════╝  ╚════╝ ╚══════╝ {Fore.YELLOW}║
+{Fore.YELLOW}║                                                      ║
+{Fore.YELLOW}║      \033[1;36mAdmin: Thiệu Hoàng | YouTube: @thieuhoang75     {Fore.YELLOW}║
+{Fore.YELLOW}║         {Fore.WHITE}Box Zalo: https://zalo.me/g/ahnoav496        {Fore.YELLOW}║
+{Fore.YELLOW}║              {Fore.YELLOW}Ngày: {datetime.now().strftime('%d/%m/%Y %H:%M:%S')}               {Fore.YELLOW}║
+{Fore.YELLOW}╚══════════════════════════════════════════════════════╝
+"""    
     for X in banner:
         sys.stdout.write(X)
         sys.stdout.flush()
