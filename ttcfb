@@ -58,29 +58,29 @@ def _encode_to_base64(_data):
 def _delay(value):
 	while not(value <= 1):
 		value -= 0.123
-		print(f'''\033[1;35m\033[1;35m[{lam}M-H\033[1;35m]\033[1;35m[{luc}TOOL-VIP\033[1;35m]\033[1;35m[{vang}DELAY\033[1;35m]\033[1;35m[{lam}{str(value)[0:5]}\033[1;35m]''', '               ', end = '\r')
+		print(f'''\033[1;35m\033[1;35m[{lam}TH\033[1;35m]\033[1;35m[{luc}TOOL-VIP\033[1;35m]\033[1;35m[{vang}DELAY\033[1;35m]\033[1;35m[{lam}{str(value)[0:5]}\033[1;35m]''', '               ', end = '\r')
 		sleep(0.02)
-		print(f'''\033[1;35m\033[1;35m[{lam}M-H\033[1;35m]\033[1;35m[{luc}TOOL-VIP\033[1;35m]\033[1;35m[{vang}DELAY\033[1;35m]\033[1;35m[{lam}{str(value)[0:5]}\033[1;35m]''', '               ', end = '\r')
+		print(f'''\033[1;35m\033[1;35m[{lam}TH\033[1;35m]\033[1;35m[{luc}TOOL-VIP\033[1;35m]\033[1;35m[{vang}DELAY\033[1;35m]\033[1;35m[{lam}{str(value)[0:5]}\033[1;35m]''', '               ', end = '\r')
 		sleep(0.02)
-		print(f'''\033[1;35m\033[1;35m[{lam}M-H\033[1;35m]\033[1;35m[{luc}TOOL-VIP\033[1;35m]\033[1;35m[{vang}DELAY\033[1;35m]\033[1;35m[{lam}{str(value)[0:5]}\033[1;35m]''', '               ', end = '\r')
+		print(f'''\033[1;35m\033[1;35m[{lam}TH\033[1;35m]\033[1;35m[{luc}TOOL-VIP\033[1;35m]\033[1;35m[{vang}DELAY\033[1;35m]\033[1;35m[{lam}{str(value)[0:5]}\033[1;35m]''', '               ', end = '\r')
 		sleep(0.02)
-		print(f'''\033[1;35m\033[1;35m[{lam}M-H\033[1;35m]\033[1;35m[{luc}TOOL-VIP\033[1;35m]\033[1;35m[{vang}DELAY\033[1;35m]\033[1;35m[{lam}{str(value)[0:5]}\033[1;35m]''', '               ', end = '\r')
+		print(f'''\033[1;35m\033[1;35m[{lam}TH\033[1;35m]\033[1;35m[{luc}TOOL-VIP\033[1;35m]\033[1;35m[{vang}DELAY\033[1;35m]\033[1;35m[{lam}{str(value)[0:5]}\033[1;35m]''', '               ', end = '\r')
 		sleep(0.02)
-		print(f'''\033[1;35m\033[1;35m[{lam}M-H\033[1;35m]\033[1;35m[{luc}TOOL-VIP\033[1;35m]\033[1;35m[{vang}DELAY\033[1;35m]\033[1;35m[{lam}{str(value)[0:5]}\033[1;35m]''', '               ', end = '\r')
+		print(f'''\033[1;35m\033[1;35m[{lam}TH\033[1;35m]\033[1;35m[{luc}TOOL-VIP\033[1;35m]\033[1;35m[{vang}DELAY\033[1;35m]\033[1;35m[{lam}{str(value)[0:5]}\033[1;35m]''', '               ', end = '\r')
 		sleep(0.02)
 
 def countdown(value):
 	while not(value <= 1) :
 		value -= 0.123
-		print(f'''\033[1;35m\033[1;35m[{lam}M-H\033[1;35m]\033[1;35m[{luc}TOOL-VIP\033[1;35m]\033[1;35m[{vang}COUNTDOWN\033[1;35m]\033[1;35m[{lam}{str(value)[0:5]}\033[1;35m]''', '               ', end = '\r')
+		print(f'''\033[1;35m\033[1;35m[{lam}TH\033[1;35m]\033[1;35m[{luc}TOOL-VIP\033[1;35m]\033[1;35m[{vang}COUNTDOWN\033[1;35m]\033[1;35m[{lam}{str(value)[0:5]}\033[1;35m]''', '               ', end = '\r')
 		sleep(0.02)
-		print(f'''\033[1;35m\033[1;35m[{lam}M-H\033[1;35m]\033[1;35m[{luc}TOOL-VIP\033[1;35m]\033[1;35m[{vang}COUNTDOWN\033[1;35m]\033[1;35m[{lam}{str(value)[0:5]}\033[1;35m]''', '               ', end = '\r')
+		print(f'''\033[1;35m\033[1;35m[{lam}TH\033[1;35m]\033[1;35m[{luc}TOOL-VIP\033[1;35m]\033[1;35m[{vang}COUNTDOWN\033[1;35m]\033[1;35m[{lam}{str(value)[0:5]}\033[1;35m]''', '               ', end = '\r')
 		sleep(0.02)
-		print(f'''\033[1;35m\033[1;35m[{lam}M-H\033[1;35m]\033[1;35m[{luc}TOOL-VIP\033[1;35m]\033[1;35m[{vang}COUNTDOWN\033[1;35m]\033[1;35m[{lam}{str(value)[0:5]}\033[1;35m]''', '               ', end = '\r')
+		print(f'''\033[1;35m\033[1;35m[{lam}TH\033[1;35m]\033[1;35m[{luc}TOOL-VIP\033[1;35m]\033[1;35m[{vang}COUNTDOWN\033[1;35m]\033[1;35m[{lam}{str(value)[0:5]}\033[1;35m]''', '               ', end = '\r')
 		sleep(0.02)
-		print(f'''\033[1;35m\033[1;35m[{lam}M-H\033[1;35m]\033[1;35m[{luc}TOOL-VIP\033[1;35m]\033[1;35m[{vang}COUNTDOWN\033[1;35m]\033[1;35m[{lam}{str(value)[0:5]}\033[1;35m]''', '               ', end = '\r')
+		print(f'''\033[1;35m\033[1;35m[{lam}TH\033[1;35m]\033[1;35m[{luc}TOOL-VIP\033[1;35m]\033[1;35m[{vang}COUNTDOWN\033[1;35m]\033[1;35m[{lam}{str(value)[0:5]}\033[1;35m]''', '               ', end = '\r')
 		sleep(0.02)
-		print(f'''\033[1;35m\033[1;35m[{lam}M-H\033[1;35m]\033[1;35m[{luc}TOOL-VIP\033[1;35m]\033[1;35m[{vang}COUNTDOWN\033[1;35m]\033[1;35m[{lam}{str(value)[0:5]}\033[1;35m]''', '               ', end = '\r')
+		print(f'''\033[1;35m\033[1;35m[{lam}TH\033[1;35m]\033[1;35m[{luc}TOOL-VIP\033[1;35m]\033[1;35m[{vang}COUNTDOWN\033[1;35m]\033[1;35m[{lam}{str(value)[0:5]}\033[1;35m]''', '               ', end = '\r')
 		sleep(0.02)
 
 def chongblock(delaybl):
